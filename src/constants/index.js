@@ -102,27 +102,19 @@ const blogPosts = [
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
-  },
-  {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
+    items: ["React", "HTML", "GSAP", "Three.js"],
   },
   {
     category: "Styling",
     items: ["Tailwind CSS", "Sass", "CSS"],
   },
   {
-    category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
-  },
-  {
-    category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    category: "Design",
+    items: ["Figma Design", "Figjam", "Figma Dev Mode"],
   },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    items: ["GitHub", "Vite", "VSCode"],
   },
 ];
 
