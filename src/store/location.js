@@ -1,6 +1,6 @@
-const { create } = require("zustand");
-const { immer } = require("zustand/middleware/immer");
-const { locations } = require("#constants");
+import { immer } from 'zustand/middleware/immer';
+import { create } from 'zustand';
+import { locations } from '#constants';
 
 const DEFAULT_LOCATION = locations.work;
 
