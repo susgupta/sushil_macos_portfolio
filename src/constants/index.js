@@ -19,19 +19,19 @@ const navLinks = [
 const navIcons = [
   {
     id: 1,
-    img: "/icons/wifi.svg",
+    img: "icons/wifi.svg",
   },
   {
     id: 2,
-    img: "/icons/search.svg",
+    img: "icons/search.svg",
   },
   {
     id: 3,
-    img: "/icons/user.svg",
+    img: "icons/user.svg",
   },
   {
     id: 4,
-    img: "/icons/mode.svg",
+    img: "icons/mode.svg",
   },
 ];
 
@@ -80,21 +80,21 @@ const blogPosts = [
     date: "Sep 2, 2025",
     title:
       "This is a fully, interactive, immersive designer/developer portfolio site.",
-    image: "/images/sushil_portfolio.png",
+    image: "images/sushil_portfolio.png",
     link: "https://susgupta.github.io/sushil_design_dev_portfolio/",
   },
   {
     id: 2,
     date: "Nov 28, 2024",
     title: "This is another interactive style product page site",
-    image: "/images/sushil_gaming_site.png",
+    image: "images/sushil_gaming_site.png",
     link: "https://susgupta.github.io/gaming_awwards/",
   },
   {
     id: 3,
     date: "Feb 15, 2020",
     title: "This is a responsive design exercise to create a fake travel/beach themed site.",
-    image: "/images/sushil_travel_site.png",
+    image: "images/sushil_travel_site.png",
     link: "https://susgupta.github.io/responsive_travel_site/index.html",
   },
 ];
@@ -122,21 +122,21 @@ const socials = [
   {
     id: 1,
     text: "Github",
-    icon: "/icons/github.svg",
+    icon: "icons/github.svg",
     bg: "#f4656b",
     link: "https://github.com/susgupta",
   },
   {
     id: 2,
     text: "Platform",
-    icon: "/icons/atom.svg",
+    icon: "icons/atom.svg",
     bg: "#4bcb63",
     link: "https://susgupta.github.io/sushil_design_dev_portfolio/",
   },
   {
     id: 3,
     text: "LinkedIn",
-    icon: "/icons/linkedin.svg",
+    icon: "icons/linkedin.svg",
     bg: "#05b6f6",
     link: "https://www.linkedin.com/in/sushil-gupta-94653397",
   },
@@ -145,27 +145,27 @@ const socials = [
 const photosLinks = [
   {
     id: 1,
-    icon: "/icons/gicon1.svg",
+    icon: "icons/gicon1.svg",
     title: "Library",
   },
   {
     id: 2,
-    icon: "/icons/gicon2.svg",
+    icon: "icons/gicon2.svg",
     title: "Memories",
   },
   {
     id: 3,
-    icon: "/icons/file.svg",
+    icon: "icons/file.svg",
     title: "Places",
   },
   {
     id: 4,
-    icon: "/icons/gicon4.svg",
+    icon: "icons/gicon4.svg",
     title: "People",
   },
   {
     id: 5,
-    icon: "/icons/gicon5.svg",
+    icon: "icons/gicon5.svg",
     title: "Favorites",
   },
 ];
@@ -173,19 +173,19 @@ const photosLinks = [
 const gallery = [
   {
     id: 1,
-    img: "/images/gal1.jpg",
+    img: "images/gal1.jpg",
   },
   {
     id: 2,
-    img: "/images/gal2.jpg",
+    img: "images/gal2.jpg",
   },
   {
     id: 3,
-    img: "/images/gal3.jpg",
+    img: "images/gal3.jpg",
   },
   {
     id: 4,
-    img: "/images/gal4.jpg",
+    img: "images/gal4.jpg",
   },
 ];
 
@@ -204,14 +204,14 @@ const WORK_LOCATION = {
   id: 1,
   type: "work",
   name: "Work",
-  icon: "/icons/work.svg",
+  icon: "icons/work.svg",
   kind: "folder",
   children: [
     // ▶ Project 1
     {
       id: 5,
       name: "Sushil Gupta Designer Developer Portfolio Site",
-      icon: "/images/folder.png",
+      icon: "images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
       windowPosition: "top-[5vh] left-5", // optional: Finder window position
@@ -219,7 +219,7 @@ const WORK_LOCATION = {
         {
           id: 1,
           name: "Interactive Designer Developer Project.txt",
-          icon: "/images/txt.png",
+          icon: "images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
@@ -233,7 +233,7 @@ const WORK_LOCATION = {
         {
           id: 2,
           name: "susgupta.github.io sushil_design_dev",
-          icon: "/images/safari.png",
+          icon: "images/safari.png",
           kind: "file",
           fileType: "url",
           href: "https://susgupta.github.io/sushil_design_dev_portfolio/",
@@ -242,16 +242,16 @@ const WORK_LOCATION = {
         {
           id: 4,
           name: "sushil_design_developer portfolio.png",
-          icon: "/images/image.png",
+          icon: "images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/sushil_portfolio.png",
+          imageUrl: "images/sushil_portfolio.png",
         },
         {
           id: 5,
           name: "Design.fig",
-          icon: "/images/plain.png",
+          icon: "images/plain.png",
           kind: "file",
           fileType: "fig",
           href: "https://google.com",
@@ -264,7 +264,7 @@ const WORK_LOCATION = {
     {
       id: 6,
       name: "Sushil Gupta Immersive Game Product Site",
-      icon: "/images/folder.png",
+      icon: "images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
       windowPosition: "top-[20vh] left-7",
@@ -272,7 +272,7 @@ const WORK_LOCATION = {
         {
           id: 1,
           name: "Game Product Site.txt",
-          icon: "/images/txt.png",
+          icon: "images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
@@ -286,7 +286,7 @@ const WORK_LOCATION = {
         {
           id: 2,
           name: "susgupta.github.io sushil_game_design",
-          icon: "/images/safari.png",
+          icon: "images/safari.png",
           kind: "file",
           fileType: "url",
           href: "https://susgupta.github.io/gaming_awwards/",
@@ -295,16 +295,16 @@ const WORK_LOCATION = {
         {
           id: 4,
           name: "sushil_gaming_site.png",
-          icon: "/images/image.png",
+          icon: "images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
-          imageUrl: "/images/sushil_gaming_site.png",
+          imageUrl: "images/sushil_gaming_site.png",
         },
         {
           id: 5,
           name: "Design.fig",
-          icon: "/images/plain.png",
+          icon: "images/plain.png",
           kind: "file",
           fileType: "fig",
           href: "https://google.com",
@@ -317,7 +317,7 @@ const WORK_LOCATION = {
     {
       id: 7,
       name: "3D Car Show Demo",
-      icon: "/images/folder.png",
+      icon: "images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
       windowPosition: "top-[33vh] left-7",
@@ -325,7 +325,7 @@ const WORK_LOCATION = {
         {
           id: 1,
           name: "3D Car Show Demo Project.txt",
-          icon: "/images/txt.png",
+          icon: "images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
@@ -338,7 +338,7 @@ const WORK_LOCATION = {
         {
           id: 2,
           name: "susgupta.github.io 3d-car-show",
-          icon: "/images/safari.png",
+          icon: "images/safari.png",
           kind: "file",
           fileType: "url",
           href: "https://susgupta.github.io/3d_car_show/",
@@ -347,16 +347,16 @@ const WORK_LOCATION = {
         {
           id: 4,
           name: "sushil_3d_car_show.png",
-          icon: "/images/image.png",
+          icon: "images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/sushil_3d_car_show.png",
+          imageUrl: "images/sushil_3d_car_show.png",
         },
         {
           id: 5,
           name: "Design.fig",
-          icon: "/images/plain.png",
+          icon: "images/plain.png",
           kind: "file",
           fileType: "fig",
           href: "https://google.com",
@@ -371,45 +371,45 @@ const ABOUT_LOCATION = {
   id: 2,
   type: "about",
   name: "About me",
-  icon: "/icons/info.svg",
+  icon: "icons/info.svg",
   kind: "folder",
   children: [
     {
       id: 1,
       name: "me.png",
-      icon: "/images/image.png",
+      icon: "images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/sushil1.png",
+      imageUrl: "images/sushil1.png",
     },
     {
       id: 2,
       name: "me-event.png",
-      icon: "/images/image.png",
+      icon: "images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/me_event1.jpg",
+      imageUrl: "images/me_event1.jpg",
     },
     {
       id: 3,
       name: "fanexpo-me.png",
-      icon: "/images/image.png",
+      icon: "images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/me_expo1.jpg",
+      imageUrl: "images/me_expo1.jpg",
     },
     {
       id: 4,
       name: "about-me.txt",
-      icon: "/images/txt.png",
+      icon: "images/txt.png",
       kind: "file",
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/sushil1.png",
+      image: "images/sushil1.png",
       description: [
         "Hey! I’m Sushil 👋, a designer and web developer who enjoys building sleek, interactive websites that actually work well.",
         "I specialize in JavaScript, React, as well as Figma design—and I love making things feel smooth, fast, and just a little bit delightful.",
@@ -424,13 +424,13 @@ const RESUME_LOCATION = {
   id: 3,
   type: "resume",
   name: "Resume",
-  icon: "/icons/file.svg",
+  icon: "icons/file.svg",
   kind: "folder",
   children: [
     {
       id: 1,
       name: "Resume.pdf",
-      icon: "/images/pdf.png",
+      icon: "images/pdf.png",
       kind: "file",
       fileType: "pdf",
       // you can add `href` if you want to open a hosted resume
@@ -443,26 +443,26 @@ const TRASH_LOCATION = {
   id: 4,
   type: "trash",
   name: "Trash",
-  icon: "/icons/trash.svg",
+  icon: "icons/trash.svg",
   kind: "folder",
   children: [
     {
       id: 1,
       name: "trash1.png",
-      icon: "/images/image.png",
+      icon: "images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-10 left-10",
-      imageUrl: "/images/trash-1.png",
+      imageUrl: "images/trash-1.png",
     },
     {
       id: 2,
       name: "trash2.png",
-      icon: "/images/image.png",
+      icon: "images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-40 left-80",
-      imageUrl: "/images/trash-2.png",
+      imageUrl: "images/trash-2.png",
     },
   ],
 };

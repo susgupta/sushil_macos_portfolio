@@ -1,16 +1,38 @@
-# React + Vite
+# Sushil MacOS Desktop Style Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fully, interactive, immersive designer/developer portfolio site, which mimics a Mac OS desktop
 
-Currently, two official plugins are available:
+Design/development highlights
+- Emulating MacOS Windows and using proper storage and windows location to maintains windows (using Zustand and immer for proper state management)
+- Using GSAP to provide animations on welcome screen as well use making windows draggable like a real MacOS
+- Proper software development practices such as using a higher order component called a WindowWrapper to wrap all window position/close behavior so that the child windows are not aware
+- Emulating a portfolio highlights to mimic a fully functional MacOS within a browser
+- Leveraging ability to use react=pdf to allow for downloadble actual pdf file for resume
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Some cool highlights
+- Folders that are MacOS desktop folders to contain my project section
+- A terminal style window to show tech skills
+- An window for contacts/photos, all to support a MacOS desktop experience
+- Mimic yes a Safari Mac OS browser window to showcase a blog site running like it would in Safari Mac OS
 
-## React Compiler
+First acknowledgements:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Credit YouTube channel **JS Mastery** for inspiration and tutorial (https://www.youtube.com/@javascriptmastery)
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- HTML
+- CSS (Tailwind CSS)
+- React/JavaScript
+- GSAP (specically react/gsap)
+- React-pdf
+- Zustand/Immer
+- Vite (as for build and development)
+
+## Real-Time Viewing For Web Version
+
+The application was publised using [GitHub Pages](https://pages.github.com/). In addition a custom Github action is used to deploy on Github pages.
+
+Here is link to view the application:
+
+[Sushil MacOS Desktop Style Portfolio](https://susgupta.github.io/sushil_macos_portfolio/)

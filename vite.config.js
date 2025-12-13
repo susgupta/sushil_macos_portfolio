@@ -15,5 +15,6 @@ export default defineConfig({
       '#hoc': resolve(dirname(fileURLToPath(import.meta.url)), 'src/hoc'),
       '#windows': resolve(dirname(fileURLToPath(import.meta.url)), 'src/windows'),
     }
-  }
+  },
+  base: '/sushil_macos_portfolio/'
 })

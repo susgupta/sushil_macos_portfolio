@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav>
 
             <div>
-                <img src="/images/logo.svg" alt="logo" />
+                <img src="images/logo.svg" alt="logo" />
                 <p className="font-bold">
                     Sushil's Portfolio
                 </p>
